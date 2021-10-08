@@ -3,12 +3,16 @@
     padding: 0%;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body{ text-align: center;
+    font-family:'Urbanist', sans-serif;
+    font-size: 20px;
 }
 
 .botones{
-    width: 60px;
+    width: 140px;
+    font-size: 40px;
+    margin-top: 10px;
+    
 }
 
 .contenedor {
