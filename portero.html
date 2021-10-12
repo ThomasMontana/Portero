@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
     <script src="codigo.js"></script>
     <title>Portero</title>
 </head>
@@ -13,8 +14,8 @@
         <h1>PORTERO</h1>
     </header>
     <div>
-        <input type="text" id="piso" style="width: 210px; height: 40px; font-size: 20px; text-align: center;" placeholder="Piso">
-        <input type="text" id="depto" style="width: 210px; height: 40px; font-size: 20px; text-align: center;" placeholder="Depto"><br>
+        <input type="text" id="piso" class="display" placeholder="Piso" disabled>
+        <input type="text" id="depto" class="display" placeholder="Depto" disabled><br>
         <div>
             <button onclick="tipear(1)" class="botones" >1</button>
             <button onclick="tipear(2)" class="botones" >2</button>
@@ -26,10 +27,12 @@
             <button onclick="tipear(8)" class="botones" >8</button>
             <button onclick="tipear(9)" class="botones" >9</button><br>
             <button onclick="tipear(0)" class="botones" >0</button>
-            <button onclick="LLamar()" class="botones" >Llamar</button>
+            <button onclick="Llamar()" class="botones" >Llamar</button>
             <button onclick="Borrar()" class="botones" >Borrar</button>
         </div>
-
+        <input type="text" id="llamar" disabled>
     </div>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="codigo.js"></script>
 </body>
 </html>
